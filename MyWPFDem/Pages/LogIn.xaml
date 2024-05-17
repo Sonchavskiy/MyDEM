@@ -1,0 +1,19 @@
+﻿<Page x:Class="MyWPFDem.Pages.LogIn"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyWPFDem.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LogIn">
+
+    <Grid Height="450" VerticalAlignment="Top">
+        <Label Content="Username" HorizontalAlignment="Left" Margin="37,39,0,0" VerticalAlignment="Top"/>
+        <TextBox Margin="37,65,37,0" TextWrapping="Wrap" Text="" Height="18" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="37,88,0,0" VerticalAlignment="Top"/>
+        <PasswordBox Margin="37,114,37,0" VerticalAlignment="Top"/>
+        <Button Content="Войти" Margin="37,178,37,0" Height="47" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Page>

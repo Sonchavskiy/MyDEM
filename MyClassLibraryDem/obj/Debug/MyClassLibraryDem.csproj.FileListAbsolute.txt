@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\MyWPFDem\MyClassLibraryDem\bin\Debug\MyClassLibraryDem.dll
+C:\Users\Admin\Desktop\MyWPFDem\MyClassLibraryDem\bin\Debug\MyClassLibraryDem.pdb
+C:\Users\Admin\Desktop\MyWPFDem\MyClassLibraryDem\obj\Debug\MyClassLibraryDem.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MyWPFDem\MyClassLibraryDem\obj\Debug\MyClassLibraryDem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MyWPFDem\MyClassLibraryDem\obj\Debug\MyClassLibraryDem.dll
+C:\Users\Admin\Desktop\MyWPFDem\MyClassLibraryDem\obj\Debug\MyClassLibraryDem.pdb
