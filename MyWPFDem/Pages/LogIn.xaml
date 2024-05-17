@@ -10,9 +10,9 @@
 
     <Grid Height="450" VerticalAlignment="Top">
         <Label Content="Username" HorizontalAlignment="Left" Margin="37,39,0,0" VerticalAlignment="Top"/>
-        <TextBox Margin="37,65,37,0" TextWrapping="Wrap" Text="" Height="18" VerticalAlignment="Top"/>
+        <TextBox x:Name="username" Margin="37,65,37,0" TextWrapping="Wrap" Text="" Height="18" VerticalAlignment="Top"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="37,88,0,0" VerticalAlignment="Top"/>
-        <PasswordBox Margin="37,114,37,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="password" Margin="37,114,37,0" VerticalAlignment="Top"/>
         <Button Content="Войти" Margin="37,178,37,0" Height="47" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>

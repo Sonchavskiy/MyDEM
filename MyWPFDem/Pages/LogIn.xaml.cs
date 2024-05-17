@@ -27,8 +27,17 @@ namespace MyWPFDem.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow maiWindow = Window.GetWindow(this) as MainWindow;
-            maiWindow.frame.Navigate(new Test());
+            User user = Singleton.DB.User.FirstOrDefault(u =>
+            u.Username == username.Text && u.Password == password.Password);
+            if (user == null)
+            {
+                MessageBox.Show("Неверный логин или пароль");
+            }
+            else
+            {
+                MainWindow maiWindow = Window.GetWindow(this) as MainWindow;
+                maiWindow.frame.Navigate(new Test());
+            }
         }
     }
 }

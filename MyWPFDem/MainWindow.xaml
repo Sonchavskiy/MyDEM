@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyWPFDem"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" MinWidth="800" MinHeight="450">
+        Title="MainWindow" Height="450" Width="800" MinWidth="800" MinHeight="450" Closing="Window_Closing">
     <Grid MinWidth="800" MinHeight="450">
         <Frame x:Name="frame" Content="" Source="/Pages/LogIn.xaml" NavigationUIVisibility="Hidden"/>
 

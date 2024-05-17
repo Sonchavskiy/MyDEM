@@ -24,5 +24,10 @@ namespace MyWPFDem
         {
             InitializeComponent();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Singleton.DB.SaveChanges();
+        }
     }
 }

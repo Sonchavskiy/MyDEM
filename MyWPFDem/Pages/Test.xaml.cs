@@ -30,5 +30,16 @@ namespace MyWPFDem.Pages
             MainWindow maiWindow = Window.GetWindow(this) as MainWindow;
             maiWindow.frame.Navigate(new LogIn());
         }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            Singleton.DB.User.ToList();
+            table.ItemsSource = Singleton.DB.User.Local;
+        }
+
+        private void filter_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Singleton.DB.User.Local.Where(u => u.Username.Contains(filter.Text));
+        }
     }
 }

@@ -6,10 +6,18 @@
       xmlns:local="clr-namespace:MyWPFDem.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Test">
+      Title="Test" Loaded="Page_Loaded" Background="Black">
 
     <Grid>
-        <Button Content="Назад" HorizontalAlignment="Right" Margin="0,10,21,0" VerticalAlignment="Top" Width="81" Height="29" Click="Button_Click"/>
+        <DockPanel Background="White">
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                <Button  Content="Назад"  Click="Button_Click" Height="32" Width="49"/>
+                <TextBox x:Name="filter" TextWrapping="Wrap" Text="" Width="300" TextChanged="filter_TextChanged"/>
+            </StackPanel>
+
+            <DataGrid x:Name="table" />
+        </DockPanel>
+
 
     </Grid>
 </Page>

@@ -18,3 +18,9 @@ C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\obj\Debug\MyWPFDem.csproj.GenerateResou
 C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\obj\Debug\MyWPFDem.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\obj\Debug\MyWPFDem.exe
 C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\obj\Debug\MyWPFDem.pdb
+C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\obj\Debug\MyWPFDem_Content.g.cs
+C:\Users\Admin\Desktop\MyWPFDem\MyWPFDem\obj\Debug\MyWPFDem.csproj.CopyComplete
